@@ -1,0 +1,40 @@
+{
+  "name": "iotawatt-mcp",
+  "version": "1.2.0",
+  "description": "MCP server for the IoTaWatt energy monitor",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "iotawatt-mcp": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "iotawatt",
+    "mcp",
+    "model-context-protocol",
+    "energy",
+    "energy-monitor"
+  ],
+  "author": "519Green",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/519Green/IotaWattMCP.git"
+  },
+  "homepage": "https://github.com/519Green/IotaWattMCP#readme",
+  "bugs": {
+    "url": "https://github.com/519Green/IotaWattMCP/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^4.3.6"
+  }
+}
